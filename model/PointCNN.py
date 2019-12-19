@@ -5,7 +5,7 @@ import torch
 import sys
 sys.path.append("..")
 import config
-#from torch_geometric.nn import fps
+from torch_geometric.nn import fps
 
 class PointCNN(nn.Module):
 
