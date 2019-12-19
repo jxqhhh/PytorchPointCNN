@@ -93,7 +93,7 @@ description = ""
 
 # device can be either "cuda" or "cpu"
 num_workers = 4
-available_gpus = ""
+available_gpus = "1"
 if available_gpus!="":
     device = torch.device("cuda")
     use_gpu=True
