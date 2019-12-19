@@ -1,0 +1,6 @@
+python-daemon
+tensorboardX
+torchvision
+matplotlib
+torch
+numpy
