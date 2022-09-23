@@ -220,7 +220,7 @@ def modelnet_x3_l4()->PointCNN:
                      (12, 2, 384, 32 * x, []),
                      (16, 2, 128, 64 * x, []),
                      (16, 3, 128, 128 * x, [])]]
-    setting["with_global"] = False
+    setting["with_global"] = True
 
     fc_param_name = ('C', 'dropout_rate')
     setting["fc_params"] = [dict(zip(fc_param_name, fc_param)) for fc_param in
